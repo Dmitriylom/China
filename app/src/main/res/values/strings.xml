@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">China</string>
+    <string name="btn_next_text">Далее</string>
+    <string name="btn_info_text">О приложении</string>
+    <string name="btn_start_text">Начать обучение</string>
+    <string name="btn_check_level_text">Проверить уровень</string>
+    <string name="screen2_info_text">Учим китайский с удовольствием</string>
+    <string name="screen2_info_text2">HR24 Китайский язык - учим легко</string>
+    <string name="btn_numbers_text">Узнать цифры</string>
+    <string name="btn_phrases_text">Узнать фразы</string>
+    <string name="training_text">Обучение</string>
+    <string name="btn_close_text">Закрыть</string>
+    <string name="btn_back_text">Назад</string>
+    <string name="btn_next_phrases_text">Дальше</string>
+    <string name="china_language_phrases1">你好！[nǐ hǎo] Нихао!</string>
+    <string name="translate_phrases1">Здравствуйте</string>
+    <string name="your_name">Ваше имя</string>
+</resources>

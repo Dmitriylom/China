@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4B1C3"
+    tools:context=".Screen4">
+
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/btn_close_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textChina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textChina"
+        android:layout_width="397dp"
+        android:layout_height="70dp"
+        android:text="@string/china_language_phrases1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textRus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <TextView
+        android:id="@+id/textRus"
+        android:layout_width="266dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/translate_phrases1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_next_phrases"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/btn_back_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_next_phrases"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/btn_next_phrases_text"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
